@@ -24,11 +24,11 @@ business editions版本
 
 ### 3.1  本机运行镜像文件安装
 
-​	
+​	打开下载好的镜像文件（后缀为iso），然后双击文件里的![setup.exe](../image/image1.png)文件，然后按照提示进行操作，可能需要等待较长的时间。
 
 ### 3.2 通过U盘安装
 
-​	
+​	参照此方法：https://zhuanlan.zhihu.com/p/84995183
 
 
 
