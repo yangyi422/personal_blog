@@ -22,15 +22,15 @@
 
 ​	变量名：GOROOT	变量值：go安装/解压的路径（如：C:\go）
 
-![](../images/golang/image1.PNG)
+![](./images/golang/image1.PNG)
 
 ​	变量名：GOPATH	 变量值：存放go项目的路径（如：D:\WorkShop\GoSpace）
 
-![](../images/golang/image2.PNG)
+![](./images/golang/image2.PNG)
 
 ​	然后在系统变量中找到变量名为path的变量，点击编辑，然后点击新建，然后复制这个路径C:\Go\bin;%GOPATH%\bin;
 
-![](../images/golang/image3.PNG)
+![](./images/golang/image3.PNG)
 
 配置完成后检查go版本
 

@@ -99,7 +99,7 @@ go install
 
 ## 3.gomod的使用
 
-> 用于解决Go项目的包管理及依赖，更加详细的信息，请参考[官方文档](https://github.com/golang/go/wiki/Modules)：https://github.com/golang/go/wiki/Modules，下列的操作皆是针对在goland中使用gomod，如果是在vscode中使用，请自行百度，因为本人自己也没弄清楚。
+> 用于解决Go项目的包管理及依赖，更加详细的信息，请参考[官方文档](https://github.com/golang/go/wiki/Modules)，下列的操作皆是针对在goland中使用gomod，如果是在vscode中使用，请自行百度，因为本人自己也没弄清楚。
 
 ### 3.1 关于gomod
 
@@ -129,9 +129,10 @@ export GOPROXY=https://goproxy.cn
 2. 生成gomod初始文件，可以自己手动创建一个go.mod文件（也可以在控制台使用go mod init 项目名 来生成此文件），然后再朝里面添加如下内容
 
 ```bash
-module my-hello
+module 项目名
 ```
 
 3. 进入setting->GO->Go Modules中，勾选上`Enable Go Modules integration`选项，在Environment中添加`GOPROXY=https://goproxy.io,direct`，然后点击apply。（每个项目使用gomod都需要设置这一步，目前没发现全局使用的方法）
 
-4. 使用`go get 第三方包的地址` 获取第三方包，然后在使用第三方包的文件内import对应的第三方包，go.mod文件中会自动添加对应的文件，也可以直接在使用第三方包的文件内import对应的第三方包，然后使用`go get .`获取第三方包，然后就可以使用第三方包了。
+4. 使用`go get 第三方包的地址` 获取第三方包，然后在使用第三方包的文件内import对应的第三方包，go.mod文件中会自动添加对应的文件，
+5. 也可以直接在使用第三方包的文件内import对应的第三方包，然后使用`go get .`获取第三方包，然后就可以使用第三方包了。
