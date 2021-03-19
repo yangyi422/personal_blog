@@ -115,9 +115,9 @@ go install
 ```bash
 #windows
 # 开启gomod
-set GO111MODULE=on;
+go env -w GO111MODULE=on
 # 设置gomod代理
-set GOPROXY=https://goproxy.cn
+go env -w GOPROXY=https://goproxy.cn
 
 #linux
 # 开启gomod
